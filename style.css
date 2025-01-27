@@ -1,46 +1,108 @@
-body{
-    background-color: beige;
-    color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: center; 
-    
-    
+body {
+  background-color: #F1F1F3;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  justify-items: center;
 }
-section{
-    width: 80%;
+section {
+  width: 80%;
 }
-.navbar{
-    display:flex;
-    justify-content: space-between;
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
-.bd{
-    font-weight: 600;
+.bd {
+  font-weight: 600;
 }
-.sign_in{
-    border: solid green ;
-    border-radius: 5px;
-    color: green;
-    font-weight: 600;
+.sign_in {
+  border: solid green;
+  border-radius: 5px;
+  color: green;
+  font-weight: 600;
+  padding: 5px;
+}
+.landing_page {
+  border-radius: 10px;
+  background-color: #c6e4d6;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 40px;
+  margin-top: 20px;
+}
+.nbd {
+  border: none;
+  background-color: #006a50;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: x-small;
+}
+h1 {
+  font-size: 56px;
+}
+.image {
+  width: 474px;
+  height: 400px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+ 
+}
+.cardstyle{
+    border: solid 1px #d7d7d8;
     padding: 5px;
-}
-.landing_page{
+    background-color: white;
     border-radius: 10px;
-    background-color: rgb(209, 243, 209);
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 40px;
-    margin-top: 20px;
+
 }
-.nbd{
+.color_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+.card1{
+    background-color: #c2d5f5;
+    border-radius: 10px;
+    padding: 15px;
+}
+.c_b1{
+    background-color: #5490F5;
+    padding: 5px;
     border: none;
-    background-color: rgb(43, 94, 43);
-    padding: 7px 10px;
     border-radius: 5px;
-    color:white;
-    font-size:x-small;
+    color: white;
 }
-h1{
-    font-size: 47px;
+.card2{
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 15px;
+}
+.c_b2{
+    background-color: #09A15C;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.card3{
+    background-color: #F7EBCF;
+    border-radius: 10px;
+    padding: 15px;
+}
+.c_b3{
+    background-color: #FFC239;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+p{
+    font-size: 15px;
+    color: #0e0e0e7c;
 }
