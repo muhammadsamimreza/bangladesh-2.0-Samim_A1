@@ -106,3 +106,20 @@ p{
     font-size: 15px;
     color: #0e0e0e7c;
 }
+.quatation{
+  border: solid 1px rgb(204, 190, 190);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 40px;
+  position: relative;
+}
+.q_p{
+  position: absolute;
+  top: 0px;
+  
+}
+.quatation_img{
+ 
+  height: 50px;
+  width: 40px;
+}
